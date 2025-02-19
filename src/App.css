@@ -23,3 +23,32 @@ body {
   font-family: "Noto Sans", serif;
 
 }
+
+
+/* Header */
+
+.header_nav {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-color: coral;
+
+}
+
+
+.header_nav h2 {
+
+  color: white;
+
+}
+
+
+.logo {
+
+  font-size: 2rem;
+
+}

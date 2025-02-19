@@ -1,3 +1,6 @@
+// Header
+
+import Header from './components/Header'
 
 // Css
 
@@ -8,6 +11,8 @@ function App() {
   return (
 
     <>
+
+      <Header />
 
     </>
 
