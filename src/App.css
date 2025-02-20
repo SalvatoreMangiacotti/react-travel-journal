@@ -11,16 +11,23 @@
 }
 
 
-ul li {
+body {
 
-  list-style: none;
+  font-family: "Noto Sans", serif;
 
 }
 
 
-body {
+img {
 
-  font-family: "Noto Sans", serif;
+  width: 35%;
+
+}
+
+
+ul li {
+
+  list-style: none;
 
 }
 
