@@ -6,15 +6,21 @@ export default function Footer(props) {
 
         <footer>
 
-            <ul>
+            <nav>
 
-                {props.social.map((social, index) =>
+                <h2>Follow us on</h2>
 
-                    <li key={index}>{social}</li>
+                <ul className="social_links">
 
-                )}
+                    {props.social.map((social, index) =>
 
-            </ul>
+                        <li key={index}>{social}</li>
+
+                    )}
+
+                </ul>
+
+            </nav>
 
         </footer>
 

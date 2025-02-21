@@ -99,3 +99,43 @@ ul li {
   margin-left: 1rem;
 
 }
+
+
+/* Footer */
+
+footer {
+
+  background-color: deepskyblue;
+
+}
+
+
+footer nav {
+
+  display: flex;
+
+  gap: 1rem;
+
+  justify-content: center;
+
+  padding: 2rem;
+
+}
+
+
+.social_links {
+
+  display: flex;
+
+  gap: 10px;
+
+}
+
+
+.social_links li {
+
+  font-size: 1.5rem;
+
+  cursor: pointer;
+
+}
