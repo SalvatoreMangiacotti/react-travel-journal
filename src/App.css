@@ -129,27 +129,28 @@ ul li {
 
 /* Footer */
 
-footer {
+.footer_title {
 
-  text-align: center;
+  background-color: deepskyblue;
 
-}
+  border-radius: 20px;
 
-
-footer h2 {
+  width: 40%;
 
   padding: 2rem;
 
   font-size: 2rem;
+
+  margin: 0 auto;
 
 }
 
 
 .travel_links {
 
-  background-color: rgba(0, 191, 255, 0.089);
-
   display: flex;
+
+  text-align: center;
 
   gap: 1rem;
 
@@ -160,11 +161,15 @@ footer h2 {
 
 footer nav {
 
-  background-color: deepskyblue;
+  background-color: rgb(20, 20, 20);
+
+  color: white;
 
   display: flex;
 
   gap: 1rem;
+
+  padding: 2rem;
 
   justify-content: center;
 
@@ -206,6 +211,16 @@ footer nav {
   .card figure {
 
     max-width: 100%;
+
+  }
+
+  .travel_links {
+
+    font-size: 1.5rem;
+
+    flex-direction: column;
+
+    gap: 2rem;
 
   }
 
