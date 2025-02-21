@@ -102,14 +102,9 @@ ul li {
 
 /* Footer */
 
-footer {
+footer nav {
 
   background-color: deepskyblue;
-
-}
-
-
-footer nav {
 
   display: flex;
 
