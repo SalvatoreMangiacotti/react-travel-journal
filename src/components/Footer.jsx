@@ -27,7 +27,7 @@ export default function Footer(props) {
 
         <footer>
 
-            <h2 className="footer_title">Fly around the world !</h2>
+            <h2 className="footer_title">Fly around the world</h2>
 
             <ul className="travel_links">
 
