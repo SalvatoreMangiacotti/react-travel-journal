@@ -13,14 +13,17 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 
 
+// Data
+
+import social from './data/social'
+
+
 // Css
 
 import './App.css'
 
 
 function App() {
-
-  const social = ['🐦', '▶️', '🐘', '📷', '📖']
 
   return (
 
