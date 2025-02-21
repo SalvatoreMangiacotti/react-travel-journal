@@ -8,6 +8,11 @@ import Header from './components/Header'
 import Main from './components/Main'
 
 
+// Footer
+
+import Footer from './components/Footer'
+
+
 // Css
 
 import './App.css'
@@ -15,12 +20,17 @@ import './App.css'
 
 function App() {
 
+  const social = ['🐦', '▶️', '🐘', '📷', '📖']
+
   return (
 
     <>
 
       <Header />
+
       <Main />
+
+      <Footer social={social} />
 
     </>
 

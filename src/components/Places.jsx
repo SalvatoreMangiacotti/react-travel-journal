@@ -6,6 +6,8 @@ const places = [
 
         image: '../public/images/susann-schuster-E_kTDFQzEuw-unsplash.jpg',
 
+        alt: 'susann-schuster - unsplash',
+
         region: 'Japan',
 
         place: 'Mount Fuji',
@@ -23,6 +25,8 @@ const places = [
 
         image: '../public/images/jesse-hammer-5WriqtKHBCc-unsplash.jpg',
 
+        alt: 'jesse-hammer - unsplash',
+
         region: 'Australia',
 
         place: 'Sydney Opera House',
@@ -39,6 +43,8 @@ const places = [
         id: 3,
 
         image: '../public/images/heidi-kaden-kYxgm42SQso-unsplash.jpg',
+
+        alt: 'heidi-kaden - unsplash',
 
         region: 'Greece',
 
@@ -58,22 +64,30 @@ export default function Places() {
 
     return (
 
-        <ul>
+        <ul className="places_list">
 
             {
                 places.map((element) => (
 
                     <li key={element.id}>
 
-                        <img src={element.image} />
+                        <figure>
 
-                        <h4>{element.region}</h4>
+                            <img src={element.image} alt={element.alt} />
 
-                        <h2>{element.place}</h2>
+                        </figure>
 
-                        <span>{element.date}</span>
+                        <div className="places-content">
 
-                        <p>{element.description}</p>
+                            <h4>✈️{element.region}</h4>
+
+                            <h2>{element.place}</h2>
+
+                            <span>{element.date}</span>
+
+                            <p>{element.description}</p>
+
+                        </div>
 
                     </li>
 
