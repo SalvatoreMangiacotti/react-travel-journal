@@ -71,34 +71,31 @@ ul li {
 
   flex-direction: column;
 
+  gap: 2rem;
+
+  padding: 1.5rem;
+
+}
+
+
+.card {
+
+  background-color: #e9ecef;
+
+  display: flex;
+
   gap: 1rem;
 
-  padding: 2rem;
+  padding: 1rem;
+
+  border-radius: 15px;
 
 }
 
 
-.places_list li {
-
-  display: flex;
-
-}
-
-
-.places_list figure {
+.card figure {
 
   max-width: 300px;
-
-}
-
-
-.places-content {
-
-  display: flex;
-
-  flex-direction: column;
-
-  margin-left: 1rem;
 
 }
 
@@ -139,5 +136,26 @@ footer nav {
   font-size: 1.5rem;
 
   cursor: pointer;
+
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:820px) {
+
+  .card {
+
+    flex-direction: column;
+
+    align-items: center;
+
+  }
+
+  .card figure {
+
+    max-width: 100%;
+
+  }
 
 }

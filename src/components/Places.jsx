@@ -64,12 +64,12 @@ export default function Places() {
 
     return (
 
-        <ul className="places_list">
+        <div className="places_list">
 
             {
                 places.map((element) => (
 
-                    <li key={element.id}>
+                    <div className="card" key={element.id}>
 
                         <figure>
 
@@ -89,12 +89,13 @@ export default function Places() {
 
                         </div>
 
-                    </li>
+                    </div>
 
                 ))
+
             }
 
-        </ul>
+        </div>
 
     )
 
