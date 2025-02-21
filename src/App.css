@@ -73,7 +73,34 @@ ul li {
 
   gap: 2rem;
 
-  padding: 1.5rem;
+  padding: 2rem;
+
+}
+
+
+.places-content>* {
+
+  margin-bottom: 10px;
+
+}
+
+
+.places-content h4 {
+
+  display: flex;
+
+  gap: 5px;
+
+  align-items: center;
+
+}
+
+
+.places-content img {
+
+  color: red;
+
+  width: 20px;
 
 }
 
@@ -102,6 +129,35 @@ ul li {
 
 /* Footer */
 
+footer {
+
+  text-align: center;
+
+}
+
+
+footer h2 {
+
+  padding: 2rem;
+
+  font-size: 2rem;
+
+}
+
+
+.travel_links {
+
+  background-color: rgba(0, 191, 255, 0.089);
+
+  display: flex;
+
+  gap: 1rem;
+
+  padding: 2rem;
+
+}
+
+
 footer nav {
 
   background-color: deepskyblue;
@@ -112,14 +168,14 @@ footer nav {
 
   justify-content: center;
 
-  padding: 2rem;
-
 }
 
 
 .social_links {
 
   display: flex;
+
+  align-items: center;
 
   gap: 10px;
 

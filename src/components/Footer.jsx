@@ -1,10 +1,39 @@
+import links from "../data/links"
+
+import TravelLinks from "./TravelLinks"
+
+
 export default function Footer(props) {
 
-    console.log(props)
+    const travelLinks = links.map((element) => {
+
+        return (
+
+            <TravelLinks
+
+                key={element.id}
+
+                {...element}
+
+            />
+
+        )
+
+    }
+
+    )
 
     return (
 
         <footer>
+
+            <h2>Fly around the world!</h2>
+
+            <ul className="travel_links">
+
+                {travelLinks}
+
+            </ul>
 
             <nav>
 

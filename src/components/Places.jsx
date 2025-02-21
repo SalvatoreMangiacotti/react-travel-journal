@@ -79,7 +79,10 @@ export default function Places() {
 
                         <div className="places-content">
 
-                            <h4>✈️{element.region}</h4>
+                            <h4>
+                                <img src="../src/assets/location-dot-solid.svg" />
+                                {element.region}
+                            </h4>
 
                             <h2>{element.place}</h2>
 
